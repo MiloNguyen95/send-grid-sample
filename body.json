@@ -1,0 +1,28 @@
+
+{
+    method: "POST",
+    path: "/v3/mail/send",
+    body: {
+        "personalizations": [
+          {
+            "to": [
+              {
+                "email": "webchat@mom.gov.sg"
+              }
+            ],
+            "subject": "{WebChat}_20210316_09:38:33_ckmbbbqhv0xez0177ashchyf9"
+          }
+        ],
+        "from": {
+          "name": "KeyReply",
+          "email": "bot@keyreply.com"
+        },
+        "content": [
+          {
+            "type": "text/html",
+            "value": "Cut because it is too long "
+          }
+        ]
+      }
+}
+ 
